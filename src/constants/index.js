@@ -197,31 +197,31 @@ import {
       image: jobit,
       source_code_link: "https://github.com/MikeLynagh/phonebookapp",
     },
-    {
-      name: "PokeViewApp",
-      description:
-        "Web application that allows a user to login and search through a database of the original 150 Pokemon. MongoDB Atlas is used as the back-end database.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/MikeLynagh/pokeviewapp",
-    },
+    // {
+    //   name: "PokeViewApp",
+    //   description:
+    //     "Web application that allows a user to login and search through a database of the original 150 Pokemon. MongoDB Atlas is used as the back-end database.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "nodejs",
+    //       color: "yellow-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/MikeLynagh/pokeviewapp",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
