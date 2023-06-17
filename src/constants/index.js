@@ -20,9 +20,10 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
     tripguide,
     threejs,
+    notesapp,
+    phonebook,
   } from "../assets";
 
   
@@ -194,8 +195,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: phonebook,
       source_code_link: "https://github.com/MikeLynagh/phonebookapp",
+    },
+    {
+      name: "Full-Stack Note-Taking web app",
+      description:
+      "A MERN web application that allows a user to add a new note and rate it's importance. Ideal to use as a simple task-list tool.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs & Expressjs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: notesapp,
+      source_code_link: "https://github.com/MikeLynagh/notesapp",
     },
     // {
     //   name: "PokeViewApp",
@@ -224,4 +246,4 @@ import {
     // },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, };
